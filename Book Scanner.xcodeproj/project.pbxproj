@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0F360609223C7C4600153E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F360608223C7C4600153E89 /* AppDelegate.swift */; };
-		0F36060B223C7C4600153E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36060A223C7C4600153E89 /* ViewController.swift */; };
 		0F36060E223C7C4600153E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F36060C223C7C4600153E89 /* Main.storyboard */; };
 		0F360610223C7C4700153E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F36060F223C7C4700153E89 /* Assets.xcassets */; };
 		0F360613223C7C4700153E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F360611223C7C4700153E89 /* LaunchScreen.storyboard */; };
+		0F360621223C95E400153E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F360620223C95E400153E89 /* ViewController.swift */; };
+		52024BF8BC9C57075E0B3C9D /* Pods_Book_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CAF4AB4693CBFCA7D506C9 /* Pods_Book_Scanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053A255824EC4CD41AFB64CD /* Pods-Book Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book Scanner.release.xcconfig"; path = "Target Support Files/Pods-Book Scanner/Pods-Book Scanner.release.xcconfig"; sourceTree = "<group>"; };
 		0F360605223C7C4600153E89 /* Book Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F360608223C7C4600153E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F36060A223C7C4600153E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F36060D223C7C4600153E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F36060F223C7C4700153E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F360612223C7C4700153E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F360614223C7C4700153E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F360620223C95E400153E89 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
+		9EC95E546A695CBB899EAE25 /* Pods-Book Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book Scanner.debug.xcconfig"; path = "Target Support Files/Pods-Book Scanner/Pods-Book Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+		F7CAF4AB4693CBFCA7D506C9 /* Pods_Book_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Book_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52024BF8BC9C57075E0B3C9D /* Pods_Book_Scanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				0F360607223C7C4600153E89 /* Book Scanner */,
 				0F360606223C7C4600153E89 /* Products */,
+				7251A3FD085194809A2754C3 /* Pods */,
+				3684936B7C108CA9E953AD45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +62,30 @@
 			isa = PBXGroup;
 			children = (
 				0F360608223C7C4600153E89 /* AppDelegate.swift */,
-				0F36060A223C7C4600153E89 /* ViewController.swift */,
+				0F360620223C95E400153E89 /* ViewController.swift */,
 				0F36060C223C7C4600153E89 /* Main.storyboard */,
 				0F36060F223C7C4700153E89 /* Assets.xcassets */,
 				0F360611223C7C4700153E89 /* LaunchScreen.storyboard */,
 				0F360614223C7C4700153E89 /* Info.plist */,
 			);
 			path = "Book Scanner";
+			sourceTree = "<group>";
+		};
+		3684936B7C108CA9E953AD45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAF4AB4693CBFCA7D506C9 /* Pods_Book_Scanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7251A3FD085194809A2754C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EC95E546A695CBB899EAE25 /* Pods-Book Scanner.debug.xcconfig */,
+				053A255824EC4CD41AFB64CD /* Pods-Book Scanner.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F360617223C7C4700153E89 /* Build configuration list for PBXNativeTarget "Book Scanner" */;
 			buildPhases = (
+				BF96B31DD997BEA130C925DD /* [CP] Check Pods Manifest.lock */,
 				0F360601223C7C4600153E89 /* Sources */,
 				0F360602223C7C4600153E89 /* Frameworks */,
 				0F360603223C7C4600153E89 /* Resources */,
+				6A8D4779E751B63298ED2800 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +156,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A8D4779E751B63298ED2800 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book Scanner/Pods-Book Scanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Book Scanner/Pods-Book Scanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF96B31DD997BEA130C925DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Book Scanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F360601223C7C4600153E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F36060B223C7C4600153E89 /* ViewController.swift in Sources */,
+				0F360621223C95E400153E89 /* ViewController.swift in Sources */,
 				0F360609223C7C4600153E89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +355,11 @@
 		};
 		0F360618223C7C4700153E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC95E546A695CBB899EAE25 /* Pods-Book Scanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHZDPWG8HX;
 				INFOPLIST_FILE = "Book Scanner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,15 +368,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Group-4.Book-Scanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0F360619223C7C4700153E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053A255824EC4CD41AFB64CD /* Pods-Book Scanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHZDPWG8HX;
 				INFOPLIST_FILE = "Book Scanner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Group-4.Book-Scanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
